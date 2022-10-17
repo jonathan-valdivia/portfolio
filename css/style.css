@@ -1527,7 +1527,7 @@ html.lt-ie10 .row > [class*="col-lg-preffix-"] {
  * @section      Font Awesome 4.4.0 by  -  - @fontawesome
  * @author       @davegandy
  * @see          http://fontawesome.io
- * @license      Font: SIL OFL 1.1, CSS: MIT License 
+ * @license      Font: SIL OFL 1.1, CSS: MIT License
  */
 @font-face {
   font-family: 'FontAwesome';
@@ -11692,7 +11692,11 @@ html:not(.lt-ie10) .not-animated {
 * @subsection   Brand
 */
 .brand .brand-logo + .brand-slogan {
-  margin-top: 17%;
+  margin-top: 12%;
+}
+
+.brand-slogan {
+  font-style: italic;
 }
 
 /*
@@ -12609,6 +12613,7 @@ html.rd-navbar-fixed-linked body {
 .rd-navbar-brand {
   display: none;
   color: #fff;
+  justify-content: center;
 }
 
 .rd-navbar-sidebar .rd-navbar-brand {
@@ -12651,6 +12656,10 @@ html.rd-navbar-fixed-linked body {
 
 .rd-navbar-fixed .rd-navbar-brand.active {
   opacity: 0;
+}
+
+.rd-navbar-brand-name {
+  margin-left: 50px;
 }
 
 @media (min-width: 480px) {
@@ -14036,7 +14045,7 @@ html.lt-ie10 .rd-mailform * + [class*='col-'],
 
 /*
 * @subsection   Vide
-* @description  Describes style declarations for Vide extension 
+* @description  Describes style declarations for Vide extension
 */
 .vide {
   opacity: .85;
@@ -14526,4 +14535,8 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0;
+}
+
+.project-view-btn {
+  font-size: 18px;
 }
